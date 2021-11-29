@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jeremi Alvarez Profile</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="https://drive.google.com/file/d/14HCSiqGoRGn4Evf0DmeCehDRV_JfLD3D/view?usp=sharing"
+		/>
+		<style>
+			body {
+				background-color: rgb(153, 204, 255);
+				padding: 2em;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			.banner {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+				background-color: black;
+				border: 10px solid white;
+				border-radius: 20px;
+				overflow: hidden;
+				padding: 10px 5px;
+			}
+			.banner .social-container {
+				flex: 1;
+			}
+			.banner .cover {
+				display: inline-block;
+				flex: 1;
+			}
+			.banner .cover img {
+				width: 100%;
+			}
+			.banner h1 {
+				color: white;
+				font-family: Holimount;
+				font-size: 3em;
+				margin: 0;
+				font-size: 6em;
+			}
+			.banner h2 {
+				display: inline-block;
+				color: white;
+				padding: 0 5px;
+				border: 5px solid gray;
+				font-size: 1.5em;
+			}
+			.banner h3 {
+				color: white;
+				font-family: Agency FB;
+				font-size: 1em;
+				margin: 5px 0;
+				
+			}
+			.logos {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				padding: 10px 0;
+			}
+			.logos img {
+				height: 100px;
+				width: 100px;
+			}
+			.logos img.fb-logo {
+				width: 150px;
+				height: 150px;
+			}
+			@media screen and (max-width: 700px) {
+				.banner {
+					flex-direction: column-reverse;
+				}
+			}
+			.recent-artworks {
+				display: block;
+				width: fit-content;
+				color: white;
+				text-align: center;
+				border-style: solid;
+				border-color: white;
+				margin: 1em auto;
+				padding: 0 10px;
+			}
+
+			.artworks {
+				background-color: black;
+				border: 10px solid white;
+				border-radius: 20px;
+				overflow: hidden;
+				padding: 1em;
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+				grid-template-rows: repeat(auto-fill, auto);
+				grid-gap: 1em;
+				align-items: center;
+				justify-content: center;
+			}
+			.artworks img {
+				width: 100%;
+				height: 100%;
+				border-radius: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- start banner -->
+		<div class="banner">
+			<div class="social-container">
+				<h1>Jeremi Alvarez</h1>
+				<h2>Graphic artist/Vexel Artist</h2>
+				<h3>Social Media Accounts</h3>
+				<div class="logos">
+					<a
+						href="https://web.facebook.com/jrmlvrzarts"
+						target="_blank"
+						title="Facebook"
+					>
+						<img
+							src="https://cotons.de/.cm4all/mediadb/.facebook1.png/picture-1200"
+							class="fb-logo"
+							alt="Facebook"
+						/>
+					</a>
+					<a
+						href="https://www.instagram.com/jmarts.xx"
+						target="_blank"
+						title="Instagram"
+					>
+						<img
+							src="https://www.nicepng.com/png/full/787-7874130_buy-100-instagram-likes-circle-icon-instagram-logo.png"
+							alt="Instagram"
+						/>
+					</a>
+					<a
+						href="https://twitter.com/jrmlvrz_x"
+						target="_blank"
+						title="Twitter"
+						style="margin-top: 40px"
+					>
+						<img
+							src="https://phoenixmonks.com/wp-content/uploads/2020/07/searchpng.com-twitter-logo-paint-splash-png-image-free-download.png"
+							alt="Twitter"
+						/>
+					</a>
+				</div>
+			</div>
+			<div class="cover">
+				<img
+					src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t1.6435-9/246726349_2942538889330320_1467463965694771241_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFm__Twrfi-QDwOJGlS5enjKjhgBDCdnGoqOGAEMJ2cahD2z6lMypBw0fxfo2_HDgTu-C9Ytc0bnTzB-poH_mZP&_nc_ohc=yN1b7EwCC00AX-RG5LQ&_nc_ht=scontent.fcrk3-1.fna&oh=7b0fa2084136e0aa5d2bc0555edb8b89&oe=61AAA7AB"
+					alt="Cover Photo"
+				/>
+			</div>
+		</div>
+		<!-- end banner -->
+
+		<!-- start artworks -->
+		<h1 class="recent-artworks">Recent Artworks</h1>
+		<div class="artworks">
+			<a
+				href="https://web.facebook.com/jrmlvrzarts/photos/405477747963067"
+			>
+				<img
+					src="https://scontent.fmnl6-1.fna.fbcdn.net/v/t1.6435-9/p526x296/243610009_405477754629733_7111457653551798405_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHXVJrQwwTU6whBLIur1DHIsXZeBjoNSb6xdl4GOg1JvsKeFMnmA-btT9oN87-smzLLX6BZ6c3H5lnFSUlRchYe&_nc_ohc=LkysN3PwzOEAX-rIb-P&_nc_ht=scontent.fmnl6-1.fna&oh=372d0142ef98570fed479306d6b7a9a9&oe=61A94381"
+				/>
+			</a>
+
+			<a
+				href="https://web.facebook.com/jrmlvrzarts/photos/402685901575585"
+			>
+				<img
+					src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.6435-9/244520302_402685904908918_1554284308367360944_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeH_JXIX34QNF5x7SWB1BLbqHvn0pA1zOBwe-fSkDXM4HN_ZDm8g7IaTmZdIVexXWntZmhnNgFC8yBXRCfJ6RgL1&_nc_ohc=XRYyu9IRfckAX_t_xti&_nc_ht=scontent.fmnl3-1.fna&oh=36638e72dc241f59aa2ad649b82be641&oe=61A90620"
+				/>
+			</a>
+
+			<a
+				href="https://web.facebook.com/jrmlvrzarts/photos/290911462753030"
+			>
+				<img
+					src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.6435-9/s640x640/182285995_290911466086363_7770575448170621564_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeG6iOsYKfZupM9thm5K5NIhtxJNhaerhOq3Ek2Fp6uE6u59niH4pAW1bbHVIaTi3qBb6SYX1dnhbpi01TyNXiTv&_nc_ohc=am6ZYJYk4mUAX_oI_eo&_nc_ht=scontent.fmnl3-1.fna&oh=7d42bb3ca2bf7acfe0a7056aa69fdd9e&oe=61A77126"
+				/>
+			</a>
+
+			<a
+				href="https://web.facebook.com/jrmlvrzarts/photos/412701000574075"
+			>
+				<img
+					src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t1.6435-9/248458055_412701003907408_4197420060887204007_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHE0B7hHzI_FshHnxcyedviD4f-h1YF5ZcPh_6HVgXlly6Y-D2aMPUacWdn9qvwby3kJQOcLrX9GK-6vk9ednwI&_nc_ohc=56QWXWfiyHgAX9mPz7r&_nc_ht=scontent.fmnl7-1.fna&oh=6cd713dddc6f8e34c10f03041b400647&oe=61A8D8B3"
+				/>
+			</a>
+
+			<a
+				href="https://web.facebook.com/jrmlvrzarts/photos/119718869872291"
+			>
+				<img
+					src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.6435-9/119700632_119718876538957_1735530453802988129_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeG5BsmlA-88eoTq8T0DhUi65AsWXd8BF8LkCxZd3wEXwq1uN0BkIZuh7lNNyx7wzhSf32ivPDPCvfsKOSHDQKCG&_nc_ohc=WN579f95Hn8AX-8UXF9&_nc_ht=scontent.fmnl3-4.fna&oh=74caae2db6a2df6cf4b3851a86bfb948&oe=61A78EA8"
+				/>
+			</a>
+		</div>
+		<!-- end artworks -->
+	</body>
+</html>
